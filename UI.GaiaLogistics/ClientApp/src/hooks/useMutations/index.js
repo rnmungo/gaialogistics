@@ -1,0 +1,1 @@
+export { useMutationTransferStock } from './useMutationTransferStock';
