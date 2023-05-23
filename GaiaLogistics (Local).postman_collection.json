@@ -1,0 +1,542 @@
+{
+	"info": {
+		"_postman_id": "f3704522-3f3b-4272-ad8b-bb2297bfea4d",
+		"name": "GaiaLogistics (Local)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4198944"
+	},
+	"item": [
+		{
+			"name": "Branch - GET All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/branch",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"branch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Branch - GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/branch/fb45653d-dde6-44ba-9fec-37df2185d715",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"branch",
+						"fb45653d-dde6-44ba-9fec-37df2185d715"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Branch - POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"code\": \"AR-24-6D\",\r\n    \"name\": \"Depósito Gaia Bahía Blanca\",\r\n    \"branchType\": \"Deposit\",\r\n    \"cityId\": \"A9766A9C-E143-44B9-BA05-D85A2F5F5FB9\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/branch",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"branch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Branch - PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Depósito Gaia Bahía Blanca (Central)\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/branch/e5b54f41-1f4f-4630-8219-6744beda6f6c",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"branch",
+						"e5b54f41-1f4f-4630-8219-6744beda6f6c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Branch - DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/branch/e5b54f41-1f4f-4630-8219-6744beda6f6c",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"branch",
+						"e5b54f41-1f4f-4630-8219-6744beda6f6c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product - GET All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/product",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product - GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/product/82148b7d-006b-4bfa-b066-266353326957",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"product",
+						"82148b7d-006b-4bfa-b066-266353326957"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product - POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Loción The One de Dolce & Gabbana 100ml\",\r\n    \"description\": \"\",\r\n    \"price\": 2300\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/product",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product - PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Loción The One de Dolce & Gabbana 100ml\",\r\n    \"description\": \"\",\r\n    \"price\": 2300\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/product/82148b7d-006b-4bfa-b066-266353326957",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"product",
+						"82148b7d-006b-4bfa-b066-266353326957"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product - DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/product/82148b7d-006b-4bfa-b066-266353326957",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"product",
+						"82148b7d-006b-4bfa-b066-266353326957"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User - GET All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/user",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User - GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/user/5a5d5c27-6fb8-44e9-ae04-f2b7ab274281",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user",
+						"5a5d5c27-6fb8-44e9-ae04-f2b7ab274281"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User - PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Rodrigo\",\r\n    \"lastName\": \"Mungo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/user/5a5d5c27-6fb8-44e9-ae04-f2b7ab274281",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user",
+						"5a5d5c27-6fb8-44e9-ae04-f2b7ab274281"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User - DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/user/5a5d5c27-6fb8-44e9-ae04-f2b7ab274281",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user",
+						"5a5d5c27-6fb8-44e9-ae04-f2b7ab274281"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User - POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Leandro\",\r\n    \"lastName\": \"Mungo\",\r\n    \"email\": \"leandromungo@gmail.com\",\r\n    \"password\": \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/user",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Branch - GET (Filters)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/branch?branchType=Deposit",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"branch"
+					],
+					"query": [
+						{
+							"key": "branchType",
+							"value": "Deposit"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StockMovement - GET (Filters)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/stock-movement/search?currentPage=1&sizeLimit=10&from=2023/05/21 00:00&causeType=Transfer",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"stock-movement",
+						"search"
+					],
+					"query": [
+						{
+							"key": "currentPage",
+							"value": "1"
+						},
+						{
+							"key": "sizeLimit",
+							"value": "10"
+						},
+						{
+							"key": "from",
+							"value": "2023/05/21 00:00"
+						},
+						{
+							"key": "userId",
+							"value": "rodrigomungo@gmail.com",
+							"disabled": true
+						},
+						{
+							"key": "destinationId",
+							"value": "AR-24-2D",
+							"disabled": true
+						},
+						{
+							"key": "causeType",
+							"value": "Transfer"
+						},
+						{
+							"key": "originId",
+							"value": "AR-24-1D",
+							"disabled": true
+						},
+						{
+							"key": "depositFilter",
+							"value": "full",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StockMovement - POST (Inventory)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"branchId\": \"9809540f-8ec6-4bc7-9f6a-d4b49d91cb96\",\r\n    \"userId\": \"5a5d5c27-6fb8-44e9-ae04-f2b7ab274281\",\r\n    \"items\": [\r\n        {\r\n            \"productId\": \"82148b7d-006b-4bfa-b066-266353326957\",\r\n            \"quantity\": 20\r\n        },\r\n        {\r\n            \"productId\": \"171ecfaa-0ab6-4d85-a7a5-50d72ec1a7c1\",\r\n            \"quantity\": 20\r\n        },\r\n        {\r\n            \"productId\": \"d538dd15-391e-4325-9360-971f1a5f11d6\",\r\n            \"quantity\": 20\r\n        },\r\n        {\r\n            \"productId\": \"d2c90be3-5c67-46ad-b49a-a9b0353e4fa9\",\r\n            \"quantity\": 20\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/stock-movement/inventory",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"stock-movement",
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StockMovement - POST (Transfer)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"originId\": \"9809540f-8ec6-4bc7-9f6a-d4b49d91cb96\",\r\n    \"destinationId\": \"042eafc9-9db2-45ad-a406-f8ab63b7012a\",\r\n    \"userId\": \"5a5d5c27-6fb8-44e9-ae04-f2b7ab274281\",\r\n    \"items\": [\r\n        {\r\n            \"productId\": \"171ecfaa-0ab6-4d85-a7a5-50d72ec1a7c1\",\r\n            \"quantity\": 1\r\n        },\r\n        {\r\n            \"productId\": \"d538dd15-391e-4325-9360-971f1a5f11d6\",\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/stock-movement/transfer",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"stock-movement",
+						"transfer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StockMovement - GET All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/stock-movement",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"stock-movement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StockMovement - GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/stock-movement/1691c6c4-7aab-4f78-80ee-d20cba451b27",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"stock-movement",
+						"1691c6c4-7aab-4f78-80ee-d20cba451b27"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StockMovement - GET (Report: Min three operations)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/stock-movement/reports/min-three-operations",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"stock-movement",
+						"reports",
+						"min-three-operations"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BASE_URL",
+			"value": "https://localhost:7292/api",
+			"type": "string"
+		}
+	]
+}

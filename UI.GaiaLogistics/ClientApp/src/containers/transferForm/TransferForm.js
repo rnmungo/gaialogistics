@@ -6,7 +6,6 @@ import MuiList from '@mui/material/List';
 import MuiListItem from '@mui/material/ListItem';
 import MuiListItemText from '@mui/material/ListItemText';
 import MuiIconButton from '@mui/material/IconButton';
-import MuiDivider from '@mui/material/Divider';
 import MuiLoadingButton from '@mui/lab/LoadingButton';
 import MuiPaper from '@mui/material/Paper';
 import MuiStack from '@mui/material/Stack';
